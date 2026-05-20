@@ -1,1 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>System Access</title>
 
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: black;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+.logo {
+  width: 140px;
+  animation: float 5s ease-in-out infinite;
+  filter: drop-shadow(0 0 10px rgba(255,215,0,0.4));
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+h1 {
+  color: gold;
+  margin-top: 20px;
+  letter-spacing: 3px;
+}
+
+p {
+  color: #aaa;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 12px 30px;
+  background: gold;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 6px;
+}
+
+.btn:hover {
+  background: white;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+  <img src="logo.png" class="logo">
+
+  <h1>FEDERAL SYSTEM</h1>
+  <p>Secure Access Terminal</p>
+
+  <a href="dashboard.html">
+    <button class="btn">ENTER SYSTEM</button>
+  </a>
+
+</div>
+
+</body>
+</html>
