@@ -1,1 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Dashboard</title>
 
+<style>
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #050505;
+  color: white;
+}
+
+.header {
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  color: gold;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 200px);
+  gap: 20px;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.card {
+  background: #111;
+  border: 1px solid gold;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.card:hover {
+  background: gold;
+  color: black;
+  transform: scale(1.05);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="header">
+  FEDERAL SYSTEM DASHBOARD
+</div>
+
+<div class="grid">
+
+  <div class="card">Agents</div>
+  <div class="card">Reports</div>
+  <div class="card">Missions</div>
+  <div class="card">Settings</div>
+
+</div>
+
+</body>
+</html>
